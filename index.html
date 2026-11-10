@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0a0a0a">
+  <meta name="description" content="Explore housing, existing buildings and energy questions around New York's subway stations. Independent research by Ritwik Agarwal.">
+  <title>Housing and energy affordability through transit</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-mode="story" data-chapter="0">
+  <a class="skip-link" href="#chapter-title">Skip to story</a>
+  <header class="topbar">
+    <a class="brand" href="#chapter=1" aria-label="Transit housing, beginning"><span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 32 32" width="28" height="28"><path d="M6 25V17L16 7M6 17H18L26 25" fill="none" stroke="currentColor" stroke-width="2"/><g fill="currentColor"><circle cx="6" cy="25" r="3"/><circle cx="16" cy="7" r="3"/><circle cx="26" cy="25" r="3"/></g></svg></span><span>TRANSIT / HOUSING</span></a>
+    <span class="edition">New York City <span>·</span> Ritwik Agarwal</span>
+    <nav class="topnav" aria-label="Main navigation">
+      <button id="story-mode" class="active">Story</button>
+      <button id="explore-mode">Explore the map</button>
+      <button id="source-open">Sources</button>
+    </nav>
+  </header>
+  <main id="main">
+    <section id="map" class="map" tabindex="0" aria-label="Interactive subway and housing map. Drag to pan. Scroll to zoom. Select a station or a housing record.">
+      <canvas id="gl-map" aria-hidden="true"></canvas>
+      <canvas id="map-labels" aria-hidden="true"></canvas>
+      <div class="map-heading"><span id="map-location">New York City</span><span class="map-caption">Scheduled MTA paths · includes limited patterns</span></div>
+      <div class="map-tools" role="group" aria-label="Map controls">
+        <button id="zoom-in" aria-label="Zoom in">+</button>
+        <button id="zoom-out" aria-label="Zoom out">−</button>
+        <button id="tilt-map" aria-label="Change map perspective">◇</button>
+        <button id="reset-map" aria-label="Reset the map">⌖</button>
+      </div>
+      <button id="legend-toggle" class="map-legend-toggle" aria-expanded="false">Map key</button>
+      <aside id="map-key" class="map-key" hidden aria-label="Map key"><div class="key-heading">Subway services<button id="legend-close" aria-label="Close map key">×</button></div><div id="route-key"></div><p>Colors and service symbols follow MTA. Select a service to filter the map.</p><div class="key-heading">Housing and planning records</div><div id="planning-key"></div><p>Planning symbols are defined for this project. They are not official zoning colors. Station-linked records do not mark a parcel boundary.</p></aside>
+      <div id="spatial-layers" class="spatial-layers" hidden>
+        <button id="layers-toggle" aria-expanded="false">Housing layers <span>⌄</span></button>
+        <div id="layer-options" hidden>
+          <label><input type="checkbox" id="layer-lift" checked> LIFT housing sites <span id="lift-count"></span></label>
+          <label><input type="checkbox" id="layer-land"> Vacant land and parking <span id="land-count"></span></label>
+          <label><input type="checkbox" id="layer-homes"> Residential parcels <span id="homes-count"></span></label>
+          <p id="layer-scope">Parcel records cover a sample near the study stations. Land use does not establish housing or retrofit suitability.</p>
+          <div class="growth-controls">
+            <label><input type="checkbox" id="growth-toggle" checked> Grow connections</label>
+            <label for="growth-radius">Study distance <output id="growth-distance">800 m</output></label>
+            <input id="growth-radius" type="range" min="200" max="1500" step="100" value="800" aria-label="Straight-line study distance in metres">
+            <button id="growth-replay">Replay growth ↻</button>
+            <p>Links connect loaded records by distance. Up to 100 records are shown. This is a visual exploration, inspired by biological networks.</p>
+            <button data-source="organism-inspiration">Network inspiration ↗</button>
+          </div>
+          <button data-source="pluto">Parcel source ↗</button><button data-source="lift-map">LIFT source ↗</button>
+        </div>
+      </div>
+      <div id="growth-caption" class="growth-caption" hidden aria-live="polite"></div>
+      <div id="field-card" class="field-card" hidden></div>
+      <div class="map-credit">Official route colors · Scheduled paths, not live service</div>
+      <div id="map-loading" class="map-loading">Loading the map…</div>
+    </section>
+    <section id="story-panel" class="story-panel" aria-labelledby="chapter-title">
+      <div id="story-copy" class="story-copy">
+        <div id="chapter-label" class="section-kicker">01 / HOUSING COSTS</div>
+        <h1 id="chapter-title" tabindex="-1">Housing and energy affordability through transit</h1>
+        <p id="chapter-lead" class="lead">A manageable rent is only part of the household budget.</p>
+        <p id="chapter-body" class="body-copy"></p>
+        <div id="chapter-extra"></div>
+        <div id="chapter-refs" class="inline-sources"></div>
+      </div>
+    </section>
+    <aside id="news-panel" class="news-panel" aria-label="Selected news coverage"></aside>
+    <aside id="explorer" class="explorer" hidden aria-label="Station and housing explorer">
+      <div class="explorer-intro"><span class="section-kicker">SUBWAY STATIONS & HOUSING</span><h1>Explore near a station</h1><p>Choose a station. Watch connections grow toward nearby projects and land-use records.</p></div>
+      <label class="search-box" for="station-search"><span aria-hidden="true">⌕</span><input id="station-search" type="search" aria-label="Search subway stations or services" placeholder="Search stations or services" autocomplete="off" aria-controls="search-results"></label>
+      <div id="search-results" class="search-results"></div>
+      <div class="route-filter"><label for="route-select">Subway service</label><select id="route-select"><option value="">All services</option></select></div>
+      <div id="planning-filters" class="planning-filters" aria-label="Filter evidence type"></div>
+      <details class="study-locations"><summary>Study locations</summary><div id="curated-list"></div></details>
+      <details class="nearby-records"><summary>Browse nearby property records</summary><div id="nearby-properties"></div></details>
+      <div id="station-inspector"></div>
+    </aside>
+  </main>
+  <footer class="story-footer">
+    <div id="chapter-track" class="chapter-track" aria-label="Story chapters"></div>
+    <div class="story-controls"><button id="previous" aria-label="Previous chapter">←</button><span id="step-counter">01 / 06</span><button id="next" class="primary">Start with the subway map <span>→</span></button></div>
+  </footer>
+  <dialog id="sources-dialog"><div class="dialog-header"><div><span class="section-kicker">RESEARCH & DATA</span><h2>Sources</h2></div><button data-close aria-label="Close sources">×</button></div><p class="dialog-intro">Research checked on 16 October 2026. Records distinguish proposals, policy requirements, field observations and missing measurements.</p><div id="source-list"></div></dialog>
+  <dialog id="handoff-dialog"><div class="dialog-header"><div><span class="section-kicker">STATION LAB</span><h2>Look inside the station</h2></div><button data-close aria-label="Close Station Lab panel">×</button></div><img src="assets/J3-01.jpg" alt="Brooklyn Bridge-City Hall station platform"><p>Continue in the separate Station Lab to examine station conditions and potential byproducts. Explore the published 3D station model.</p><label class="minor-label" for="lab-url">Station Lab address</label><div class="handoff-input"><input id="lab-url" type="url" value="https://ritwikagarwal.github.io/transit_try/"><button id="open-lab" class="primary">Open Station Lab ↗</button></div><p id="lab-status" class="fine-print">The default address opens the published 3D station model.</p></dialog>
+  <aside id="local-file-help" class="local-file-help" hidden><h2>Run the local server first</h2><p>Open this website folder in VS Code. In its terminal, run <code>python3 run.py</code>. Then open <a href="http://127.0.0.1:4173">http://127.0.0.1:4173</a>.</p><p>Opening index.html directly cannot load the map data or JavaScript modules.</p></aside>
+  <div id="announcement" class="sr-only" role="status"></div>
+  <noscript><p class="local-file-help">Enable JavaScript to explore this website.</p></noscript>
+  <script>if(location.protocol==='file:'){document.getElementById('local-file-help').hidden=false;}</script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>
