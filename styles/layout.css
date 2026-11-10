@@ -1,0 +1,26 @@
+.topbar { height:76px; padding:0 3.4%; display:flex; align-items:center; gap:30px; position:relative; z-index:10; border-bottom:1px solid var(--border); background:var(--background); }
+.brand { display:flex; align-items:center; gap:10px; text-decoration:none; font-size:13px; font-weight:750; letter-spacing:1.1px; white-space:nowrap; }
+.brand-mark { display:grid; place-items:center; width:27px; height:27px; color:var(--accent); font-size:20px; }
+.brand-mark svg { display:block; width:100%; height:100%; }
+.edition { color:var(--muted); font-size:11px; }
+.edition span { padding:0 9px; color:var(--border-strong); }
+.topnav { margin-left:auto; display:flex; align-items:center; gap:27px; }
+.topnav button { font-size:12px; padding:14px 0; color:var(--secondary); }
+.topnav button.active { color:var(--accent); }
+#main { position:absolute; inset:76px 0 92px; overflow:hidden; }
+.story-footer { position:absolute; height:92px; bottom:0; left:0; right:0; display:flex; align-items:center; gap:35px; padding:0 3.4%; border-top:1px solid var(--border); background:rgba(14,14,13,.96); z-index:8; }
+.chapter-track { flex:1; display:flex; align-self:stretch; }
+.chapter-tab { flex:1; text-align:left; padding:17px 10px 16px 0; color:var(--muted); border-top:2px solid transparent; font-size:10px; }
+.chapter-tab span { display:block; font-size:11px; margin-bottom:7px; }
+.chapter-tab b { font-size:10px; font-weight:500; }
+.chapter-tab.active { border-top-color:var(--accent); color:var(--text); }
+.chapter-tab.active span { color:var(--accent); }
+.story-controls { display:flex; align-items:center; gap:15px; }
+#previous { border:1px solid var(--border); border-radius:50%; width:37px; height:37px; }
+#step-counter { font-size:10px; color:var(--muted); white-space:nowrap; }
+#next { min-width:215px; }
+body[data-mode='explore'] .story-panel { display:none; }
+body[data-mode='explore'] .chapter-track { visibility:hidden; }
+body[data-mode='explore'] #previous, body[data-mode='explore'] #step-counter { display:none; }
+body[data-mode='explore'] .story-footer { height:66px; }
+body[data-mode='explore'] #main { bottom:66px; }

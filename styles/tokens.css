@@ -1,0 +1,43 @@
+:root {
+  --background: #0a0a0a;
+  --panel: #171715;
+  --panel-raised: #20201c;
+  --panel-hover: #2b2a25;
+  --border: #37352f;
+  --border-strong: #5d574c;
+  --text: #f2efe6;
+  --secondary: #c3beb2;
+  --muted: #a39b8e;
+  --accent: #f15b3a;
+  --accent-hover: #ff7657;
+  --accent-border: #9b4c38;
+  --accent-surface: #f15b3a17;
+  --paper: #f2efe6;
+  --paper-raised: #faf7ef;
+  --paper-line: #d6d0c3;
+  --ink: #151412;
+  --ink-secondary: #4f493f;
+  --ink-muted: #71695e;
+  --accent-ink: #ad371f;
+  --font: 'Helvetica Neue', Arial, -apple-system, BlinkMacSystemFont, sans-serif;
+}
+* { box-sizing: border-box; }
+html, body { margin: 0; min-height: 100%; background: var(--background); color: var(--text); font-family: var(--font); }
+body { height: 100dvh; overflow: hidden; }
+button, input, select { font: inherit; }
+button { cursor: pointer; color: inherit; background: none; border: 0; }
+button:hover:not(:disabled) { color: var(--accent); }
+a { color: inherit; }
+a:hover { color: var(--accent); }
+button:disabled { opacity: .25; cursor: default; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, summary:focus-visible, [tabindex='0']:focus-visible { outline: 2px solid var(--accent); outline-offset: 4px; }
+[hidden] { display: none !important; }
+.sr-only { position:absolute; width:1px; height:1px; padding:0; margin:-1px; overflow:hidden; clip:rect(0,0,0,0); white-space:nowrap; border:0; }
+.section-kicker { display:block; font-size:10px; font-weight:600; letter-spacing:1.2px; color:var(--accent); line-height:1.5; }
+.minor-label { display:block; font-size:11px; line-height:1.6; color:var(--muted); }
+.fine-print { font-size:11px; line-height:1.7; color:var(--muted); }
+.primary { display:flex; justify-content:space-between; align-items:center; gap:24px; background:var(--accent); color:#0a0a0a !important; min-height:44px; padding:12px 18px; border-radius:5px; font-size:12px; font-weight:650; }
+.primary:hover { background:var(--accent-hover); }
+.text-button { color:var(--accent); padding:8px 0; font-size:12px; }
+.skip-link { position:absolute; z-index:99; left:20px; top:-100px; background:var(--accent); color:#0a0a0a; padding:12px; }
+.skip-link:focus { top:10px; }
