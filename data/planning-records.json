@@ -1,0 +1,78 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-10-16",
+  "records": [
+    {
+      "id": "new-utrecht-housing",
+      "stationId": "B19",
+      "kind": "new-housing",
+      "evidenceStatus": "documented-proposal",
+      "sourceIds": ["library", "vision"],
+      "title": "New Utrecht Library housing proposal",
+      "summary": "HPD's RFP seeks a new library and more than 200 homes, all affordable, at the library and adjacent municipal parking site. HPD describes the site as one block from 18 Av on the D. This is a proposal, not completed housing.",
+      "geometry": null,
+      "quantities": {"proposedHomes": {"value": 200, "comparison": ">", "unit": "homes"}},
+      "opportunityId": "new-utrecht-library",
+      "relatedRecordIds": ["new-utrecht-library-redevelopment", "new-utrecht-rezoning"]
+    },
+    {
+      "id": "new-utrecht-library-redevelopment",
+      "stationId": "B19",
+      "kind": "reuse",
+      "evidenceStatus": "documented-proposal",
+      "sourceIds": ["library", "vision"],
+      "title": "Library and parking site redevelopment",
+      "summary": "The same New Utrecht RFP combines an existing public library site and adjacent municipal parking lot with a replacement library. This record describes land redevelopment and retention of a public service. It does not establish adaptive reuse of the existing structure or a second housing project.",
+      "geometry": null,
+      "quantities": null,
+      "opportunityId": "new-utrecht-library",
+      "relatedRecordIds": ["new-utrecht-housing", "new-utrecht-rezoning"]
+    },
+    {
+      "id": "new-utrecht-rezoning",
+      "stationId": "B19",
+      "kind": "rezoning",
+      "evidenceStatus": "documented-requirement",
+      "sourceIds": ["library", "vision", "yes"],
+      "title": "RFP assumes rezoning",
+      "summary": "Respondents to the New Utrecht RFP must assume rezoning. This is a requirement associated with the same housing proposal. It is not evidence that rezoning has been approved or that every parcel near the station is eligible for housing.",
+      "geometry": null,
+      "quantities": null,
+      "opportunityId": "new-utrecht-library",
+      "relatedRecordIds": ["new-utrecht-housing", "new-utrecht-library-redevelopment"]
+    },
+    {
+      "id": "union-st-access-easement",
+      "stationId": "R32",
+      "kind": "access",
+      "evidenceStatus": "documented-easement",
+      "sourceIds": ["access"],
+      "title": "Union St future-access easement",
+      "summary": "MTA's Zoning for Accessibility report documents an easement at 204 4th Avenue for a future elevator and stairway to the Union St southbound platform. This does not establish an operating elevator, step-free access today, or a housing development opportunity.",
+      "geometry": null,
+      "quantities": null
+    },
+    {
+      "id": "jefferson-st-housing-context",
+      "stationId": "L15",
+      "kind": "preservation",
+      "evidenceStatus": "field-context",
+      "sourceIds": ["field"],
+      "title": "Jefferson St housing context",
+      "summary": "A supplied field photograph shows housing facades near the reported Jefferson St origin. It supports a discussion of existing homes. No building has been classified as a preservation or retrofit candidate. Condition, tenure, ownership and energy demand have not been verified.",
+      "geometry": null,
+      "quantities": null
+    },
+    {
+      "id": "city-hall-thermal-study-context",
+      "stationId": "640",
+      "kind": "thermal-study",
+      "evidenceStatus": "field-context",
+      "sourceIds": ["field", "district"],
+      "title": "Brooklyn Bridge-City Hall field study",
+      "summary": "Supplied photographs establish station context for the separate Station Lab. No local recoverable heat measurement, receiving-building demand, pipe route or verified thermal energy network is loaded. NYSERDA guidance explains the study questions. It does not establish feasibility at this station.",
+      "geometry": null,
+      "quantities": null
+    }
+  ]
+}

@@ -1,0 +1,3050 @@
+{
+  "provenance": {
+    "source": "NYC Mayor's Office, Land Inventory Fast Track (LIFT)",
+    "sourceUrl": "https://www.nyc.gov/main/land-inventory-fast-track",
+    "storyMapUrl": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+    "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+    "storyMapDataUrl": "https://www.arcgis.com/sharing/rest/content/items/afce9e93d79847608fc846878e17db8e/data?f=json",
+    "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+    "webMapDataUrl": "https://www.arcgis.com/sharing/rest/content/items/70bd4dc0d246454d82e0784a8ab9c265/data?f=json",
+    "featureServiceItemId": "f4ab8860ae8849349bd7830557661450",
+    "featureServiceUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0",
+    "featureServiceLastEditedAt": "2026-10-05T21:13:37.677000Z",
+    "downloadedAt": "2026-10-16T06:42:22Z",
+    "totalCount": 120,
+    "coordinatesCount": 120,
+    "stageCounts": {
+      "Developer Selected/Pre-Public Approval": 28,
+      "Post Public Approval": 65,
+      "Pre-Public Approval": 2,
+      "Pre-RFP": 21,
+      "RFP Active": 4
+    },
+    "homesAsTextCount": 5,
+    "coordinateSystem": "EPSG:4326 longitude, latitude; source project points requested with outSR=4326",
+    "recordGrain": "One published LIFT pipeline project point. A project may span multiple properties.",
+    "fieldMapping": {
+      "title": "New_Name",
+      "stage": "StatusNew",
+      "homesLabel": "UnitsTot",
+      "address": "Address",
+      "leadAgency": "Agency",
+      "owner": "OwnerName",
+      "sourceId": "ObjectId"
+    },
+    "queryUrls": [
+      "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14%2C15%2C16%2C17%2C18%2C19%2C20%2C21%2C22%2C23%2C24%2C25%2C26%2C27%2C28%2C29%2C30%2C31%2C32%2C33%2C34%2C35%2C36%2C37%2C38%2C39%2C40%2C41%2C42%2C43%2C44%2C45%2C46%2C47%2C48%2C49%2C50%2C51%2C52%2C53%2C54%2C55%2C56%2C57%2C58%2C59%2C60%2C61%2C62%2C63%2C64%2C65%2C66%2C67%2C68%2C69%2C70%2C71%2C72%2C73%2C74%2C75%2C76%2C77%2C78%2C79%2C80%2C81%2C82%2C83%2C84%2C85%2C86%2C87%2C88%2C89%2C90%2C91%2C92%2C93%2C94%2C95%2C96%2C97%2C99%2C100%2C101%2C102%2C103%2C104%2C105%2C106%2C107%2C108%2C109%2C110%2C111%2C112%2C113%2C114%2C115%2C116%2C117%2C118%2C119%2C120%2C121&outFields=%2A&returnGeometry=true&outSR=4326&f=json"
+    ],
+    "limitations": [
+      "Pipeline projects and published unit estimates are not completed homes.",
+      "UnitsTot reports total published project units. The layer does not give an affordable-unit breakdown or household income eligibility.",
+      "Stage labels are preserved as supplied. No planning approval or zoning permission is inferred.",
+      "Project points are not parcel boundaries, available land listings, or verified buildable areas.",
+      "Nearby subway service, accessible walking routes, energy demand and thermal feasibility are separate questions.",
+      "Numeric homes values are parsed only from plain integer UnitsTot text. Ranges and approximations remain in homesLabel with homes null.",
+      "This is a dated local snapshot. It does not automatically reflect later source edits."
+    ]
+  },
+  "records": [
+    {
+      "id": "lift-1",
+      "sourceId": 1,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 1
+      },
+      "title": "100 Gold",
+      "coordinates": [
+        -74.0032427,
+        40.7101025
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 3700,
+      "homesLabel": "3,700",
+      "address": "100 GOLD STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=1&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-2",
+      "sourceId": 2,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 2
+      },
+      "title": "1093 - 1095 Jerome Avenue",
+      "coordinates": [
+        -73.9249828,
+        40.8340744
+      ],
+      "stage": "Post Public Approval",
+      "homes": 61,
+      "homesLabel": "61",
+      "address": "1095 JEROME AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=2&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-3",
+      "sourceId": 3,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 3
+      },
+      "title": "109-43 Farmers Blvd",
+      "coordinates": [
+        -73.7661155,
+        40.702695599999984
+      ],
+      "stage": "Pre-RFP",
+      "homes": 40,
+      "homesLabel": "40",
+      "address": "109-43 FARMERS BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=3&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-4",
+      "sourceId": 4,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 4
+      },
+      "title": "1110 Atlantic Avenue",
+      "coordinates": [
+        -73.9563324,
+        40.67899049999998
+      ],
+      "stage": "Pre-RFP",
+      "homes": 167,
+      "homesLabel": "167",
+      "address": "1110 ATLANTIC AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC TRANSIT AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=4&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-5",
+      "sourceId": 5,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 5
+      },
+      "title": "1134-1142 Pacific Street",
+      "coordinates": [
+        -73.95437354,
+        40.67805386999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 120,
+      "homesLabel": "120",
+      "address": "1142 PACIFIC STREET",
+      "leadAgency": "HPD",
+      "owner": "PROMESA RESIDENTIAL HEALTH CARE FACILITY , INC.",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=5&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-6",
+      "sourceId": 6,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 6
+      },
+      "title": "1337 Jerome Avenue",
+      "coordinates": [
+        -73.9190648,
+        40.83894230000001
+      ],
+      "stage": "Pre-RFP",
+      "homes": 50,
+      "homesLabel": "50",
+      "address": "1337 JEROME AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=6&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-7",
+      "sourceId": 7,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 7
+      },
+      "title": "1605 Nelson Avenue",
+      "coordinates": [
+        -73.9198473,
+        40.8464112
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 153,
+      "homesLabel": "153",
+      "address": "1605-11 NELSON AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=7&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-8",
+      "sourceId": 8,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 8
+      },
+      "title": "1640 - 1642 Anthony Avenue (AKA Claremont House)",
+      "coordinates": [
+        -73.9046145,
+        40.84255699999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 66,
+      "homesLabel": "66",
+      "address": "1640 ANTHONY AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=8&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-9",
+      "sourceId": 9,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 9
+      },
+      "title": "1727 Amsterdam Avenue",
+      "coordinates": [
+        -73.9469467,
+        40.82536939999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 200,
+      "homesLabel": "200",
+      "address": "1721-35 AMSTERDAM AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HEALTH AND HOSPITALS CORPORATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=9&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-10",
+      "sourceId": 10,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 10
+      },
+      "title": "22 East 119th Street - VOA Building A",
+      "coordinates": [
+        -73.9443792,
+        40.8019283
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 296,
+      "homesLabel": "296",
+      "address": "22 EAST  119 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=10&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-11",
+      "sourceId": 11,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 11
+      },
+      "title": "22 East 119th Street - VOA Building B",
+      "coordinates": [
+        -73.9443792,
+        40.8019283
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 404,
+      "homesLabel": "404",
+      "address": "22 EAST  119 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=11&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-12",
+      "sourceId": 12,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 12
+      },
+      "title": "22 Suffolk Street",
+      "coordinates": [
+        -73.9871182,
+        40.7165273
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 185,
+      "homesLabel": "185",
+      "address": "390 GRAND STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=12&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-13",
+      "sourceId": 13,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 13
+      },
+      "title": "240 Nassau",
+      "coordinates": [
+        -73.98117192,
+        40.6978651
+      ],
+      "stage": "Pre-Public Approval",
+      "homes": 1502,
+      "homesLabel": "1502",
+      "address": "46 NAVY STREET",
+      "leadAgency": "ECF",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=13&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-14",
+      "sourceId": 14,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 14
+      },
+      "title": "27 Hooper",
+      "coordinates": [
+        -73.96226973,
+        40.70196073999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 97,
+      "homesLabel": "97",
+      "address": "27 HOOPER STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=14&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-15",
+      "sourceId": 15,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 15
+      },
+      "title": "320 Concord (New York City Borough - Based Jail System)",
+      "coordinates": [
+        -73.9093543,
+        40.80691250000001
+      ],
+      "stage": "Pre-RFP",
+      "homes": 234,
+      "homesLabel": "234",
+      "address": "320 CONCORD AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF CORRECTIONS",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=15&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-16",
+      "sourceId": 16,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 16
+      },
+      "title": "324 East 5th Street",
+      "coordinates": [
+        -73.9877874,
+        40.72588700000001
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 132,
+      "homesLabel": "132",
+      "address": "113 EAST    4 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=16&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-17",
+      "sourceId": 17,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 17
+      },
+      "title": "351 Powers Avenue",
+      "coordinates": [
+        -73.9125785,
+        40.80805949999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 84,
+      "homesLabel": "84",
+      "address": "677 EAST  141 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=17&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-18",
+      "sourceId": 18,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 18
+      },
+      "title": "388 Hudson Street",
+      "coordinates": [
+        -74.0066568,
+        40.72909610000001
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 279,
+      "homesLabel": "279",
+      "address": "388-02 HUDSON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF ENVIRONMENTAL PROTECTION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=18&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-19",
+      "sourceId": 19,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 19
+      },
+      "title": "395 Flatbush Avenue Extension",
+      "coordinates": [
+        -73.9807122,
+        40.6893862
+      ],
+      "stage": "Post Public Approval",
+      "homes": 1263,
+      "homesLabel": "1263",
+      "address": "395 FLATBUSH AVENUE EXTENSION",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=19&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-20",
+      "sourceId": 20,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 20
+      },
+      "title": "44-59 45th Avenue/Long Island City Neighborhood Plan (Block 24, Lot 7)",
+      "coordinates": [
+        -73.9535869,
+        40.74903299999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 320,
+      "homesLabel": "320",
+      "address": "4459 45 AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYS DEPARTMENT OF TRANSPORTATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=20&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-21",
+      "sourceId": 21,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 21
+      },
+      "title": "457 Nostrand Avenue",
+      "coordinates": [
+        -73.9491307,
+        40.6815128
+      ],
+      "stage": "Pre-RFP",
+      "homes": 240,
+      "homesLabel": "240",
+      "address": "475 NOSTRAND AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=21&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-22",
+      "sourceId": 22,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 22
+      },
+      "title": "515 Blake Avenue (Buildings C and D)",
+      "coordinates": [
+        -73.8998794,
+        40.6675892
+      ],
+      "stage": "Post Public Approval",
+      "homes": 254,
+      "homesLabel": "254",
+      "address": "HINSDALE STREET",
+      "leadAgency": "HPD",
+      "owner": "HELP HINSDALE C HOUSING DEVELOPMENT FUND  CORPORATI",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=22&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-23",
+      "sourceId": 23,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 23
+      },
+      "title": "599 Courtlandt Avenue / Melrose Commons Site 14 (B2)",
+      "coordinates": [
+        -73.91929773,
+        40.81793126999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 159,
+      "homesLabel": "159",
+      "address": "599 COURTLANDT AVENUE",
+      "leadAgency": "HPD",
+      "owner": "COURTLANDT DEVELOPMENT GROUP LLC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=23&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-24",
+      "sourceId": 24,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 24
+      },
+      "title": "784-800 Myrtle Avenue",
+      "coordinates": [
+        -73.9510245,
+        40.6949246
+      ],
+      "stage": "Pre-RFP",
+      "homes": 150,
+      "homesLabel": "150",
+      "address": "784 MYRTLE AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=24&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-25",
+      "sourceId": 25,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 25
+      },
+      "title": "913 Kent Avenue",
+      "coordinates": [
+        -73.9587426,
+        40.6935525
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 100,
+      "homesLabel": "100",
+      "address": "913 KENT AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF ENVIRONMENTAL PROTECTION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=25&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-26",
+      "sourceId": 26,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 26
+      },
+      "title": "Arverne East",
+      "coordinates": [
+        -73.7675267,
+        40.59345965999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 1650,
+      "homesLabel": "1,650",
+      "address": "3527 SHORE FRONT PARKWAY",
+      "leadAgency": "HPD",
+      "owner": "HP ARVERNE EAST AFFORDABLE D HOUSING DEV ELOPMENT F",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=26&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-27",
+      "sourceId": 27,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 27
+      },
+      "title": "Ascendant. 244 East 106th Street. ShareNYC",
+      "coordinates": [
+        -73.9430814,
+        40.790583700000006
+      ],
+      "stage": "Post Public Approval",
+      "homes": 36,
+      "homesLabel": "36",
+      "address": "242 EAST 106 STREET",
+      "leadAgency": "HPD",
+      "owner": "LOTT LEGACY APARTMENTS HOUSING DEVELOPME NT FUND",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-28",
+      "sourceId": 28,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 28
+      },
+      "title": "Belmont - Washington",
+      "coordinates": [
+        -73.89500807,
+        40.85220194
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 37,
+      "homesLabel": "37",
+      "address": "2124 WASHINGTON AVENUE",
+      "leadAgency": "HPD",
+      "owner": "PROSPECT HOUSING DEVELOPMENT FUND CORPOR ATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=28&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-29",
+      "sourceId": 29,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 29
+      },
+      "title": "Bergen Green",
+      "coordinates": [
+        -73.9734247,
+        40.6802227
+      ],
+      "stage": "Post Public Approval",
+      "homes": 112,
+      "homesLabel": "112",
+      "address": "BERGEN STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=29&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-30",
+      "sourceId": 30,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 30
+      },
+      "title": "Bloomingdale Library Site / W 100th St",
+      "coordinates": [
+        -73.9678419,
+        40.79592079999999
+      ],
+      "stage": "RFP Active",
+      "homes": 850,
+      "homesLabel": "850",
+      "address": "150 WEST  100 STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF HEALTH AND MENTAL HYGIENE",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=30&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-31",
+      "sourceId": 31,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 31
+      },
+      "title": "Broadway Triangle Site B",
+      "coordinates": [
+        -73.9472221,
+        40.70129899999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 171,
+      "homesLabel": "171",
+      "address": "68 GERRY STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=31&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-32",
+      "sourceId": 32,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 32
+      },
+      "title": "Bronx Point Phase 2",
+      "coordinates": [
+        -73.9310939,
+        40.819772799999996
+      ],
+      "stage": "Post Public Approval",
+      "homes": 356,
+      "homesLabel": "356",
+      "address": "EXTERIOR STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=32&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-33",
+      "sourceId": 33,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 33
+      },
+      "title": "Brooklyn Marine Terminal",
+      "coordinates": [
+        -74.0028594,
+        40.68779299999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 6000,
+      "homesLabel": "6000",
+      "address": "24-64 KANE STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF SMALL BUSINESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=33&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-34",
+      "sourceId": 34,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 34
+      },
+      "title": "Brownsville NCP",
+      "coordinates": [
+        -73.9062547,
+        40.6686375
+      ],
+      "stage": "Post Public Approval",
+      "homes": 61,
+      "homesLabel": "61",
+      "address": "425 MOTHER GASTON BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=34&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-35",
+      "sourceId": 35,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 35
+      },
+      "title": "Brownsville North/Ocean Hill",
+      "coordinates": [
+        -73.9191381,
+        40.67462
+      ],
+      "stage": "Post Public Approval",
+      "homes": 33,
+      "homesLabel": "33",
+      "address": "1875 BERGEN STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=35&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-36",
+      "sourceId": 36,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 36
+      },
+      "title": "Camba. 1733 Bergen. Kingsborough RFP",
+      "coordinates": [
+        -73.9243144,
+        40.6750846
+      ],
+      "stage": "Post Public Approval",
+      "homes": 244,
+      "homesLabel": "244",
+      "address": "447 KINGSBOROUGH    4 WALK",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=36&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-37",
+      "sourceId": 37,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 37
+      },
+      "title": "Carmen Villegas Apartments - Senior Housing / ASCENDANT. 101 EAST 110TH ST. CARMEN VILLEGAS",
+      "coordinates": [
+        -73.9453668,
+        40.795643299999995
+      ],
+      "stage": "Post Public Approval",
+      "homes": 221,
+      "homesLabel": "221",
+      "address": "100 EAST 111 STREET",
+      "leadAgency": "HPD",
+      "owner": "CASITA PARK HOUSING DEVELOPMENT FUND CORPORATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=37&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-38",
+      "sourceId": 38,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 38
+      },
+      "title": "Castleton",
+      "coordinates": [
+        -74.086732,
+        40.63484212
+      ],
+      "stage": "Pre-RFP",
+      "homes": 330,
+      "homesLabel": "330",
+      "address": "101 CASTLETON AVENUE",
+      "leadAgency": "HPD",
+      "owner": "CASTLETON CASTLE CONDOMINIUM",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=38&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-39",
+      "sourceId": 39,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 39
+      },
+      "title": "Central Harlem Clusters Infill - Open Door",
+      "coordinates": [
+        -73.9431159,
+        40.813611999999985
+      ],
+      "stage": "Post Public Approval",
+      "homes": 48,
+      "homesLabel": "48",
+      "address": "131 WEST  133 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=39&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-40",
+      "sourceId": 40,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 40
+      },
+      "title": "Central Harlem NCP 2",
+      "coordinates": [
+        -73.9395579,
+        40.809169199999985
+      ],
+      "stage": "Post Public Approval",
+      "homes": 57,
+      "homesLabel": "57",
+      "address": "2 EAST  130 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=40&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-41",
+      "sourceId": 41,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 41
+      },
+      "title": "Clinton Manor Phase 1",
+      "coordinates": [
+        -73.9925778,
+        40.76623519999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 130,
+      "homesLabel": "130",
+      "address": "535 WEST 51 STREET",
+      "leadAgency": "HPD",
+      "owner": "CLINTON MANOR ASSOCIATES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=41&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-42",
+      "sourceId": 42,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 42
+      },
+      "title": "Clinton Manor Phase 2",
+      "coordinates": [
+        -73.9925778,
+        40.76623519999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 441,
+      "homesLabel": "441",
+      "address": "535 WEST 51 STREET",
+      "leadAgency": "HPD",
+      "owner": "CLINTON MANOR ASSOCIATES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=42&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-43",
+      "sourceId": 43,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 43
+      },
+      "title": "Coney West (Parcel A)",
+      "coordinates": [
+        -73.988078,
+        40.57391669999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 505,
+      "homesLabel": "505",
+      "address": "2118 SURF AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=43&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-44",
+      "sourceId": 44,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 44
+      },
+      "title": "Coney West Neighborhood Sites",
+      "coordinates": [
+        -73.9847303,
+        40.57391899999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 995,
+      "homesLabel": "995",
+      "address": "1601 BOARDWALK",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=44&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-45",
+      "sourceId": 45,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 45
+      },
+      "title": "Constellation",
+      "coordinates": [
+        -73.9212999,
+        40.6878513
+      ],
+      "stage": "Post Public Approval",
+      "homes": 115,
+      "homesLabel": "115",
+      "address": "908 MADISON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF CITYWIDE ADMINISTRATIVE SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=45&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-46",
+      "sourceId": 46,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 46
+      },
+      "title": "Dean Park Edge",
+      "coordinates": [
+        -73.9727322,
+        40.6809444
+      ],
+      "stage": "Post Public Approval",
+      "homes": 152,
+      "homesLabel": "152",
+      "address": "530 DEAN STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=46&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-47",
+      "sourceId": 47,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 47
+      },
+      "title": "Douglaston-Phipps 110E 138 Street",
+      "coordinates": [
+        -73.93046267,
+        40.81283893
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 169,
+      "homesLabel": "169",
+      "address": "110 EAST 138TH STREET",
+      "leadAgency": "HPD",
+      "owner": "EAST 138TH STREET JV ASSOCIATES LLC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=47&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-48",
+      "sourceId": 48,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 48
+      },
+      "title": "East Harlem Sites / A-East",
+      "coordinates": [
+        -73.9332343,
+        40.8038986
+      ],
+      "stage": "Pre-Public Approval",
+      "homes": null,
+      "homesLabel": "700+",
+      "address": "2461 2 AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=48&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection. The published units value is a range or approximation: 700+."
+    },
+    {
+      "id": "lift-49",
+      "sourceId": 49,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 49
+      },
+      "title": "East Harlem Sites / A-West",
+      "coordinates": [
+        -73.9348954,
+        40.8043936
+      ],
+      "stage": "Pre-RFP",
+      "homes": 400,
+      "homesLabel": "400",
+      "address": "2325 3 AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=49&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-50",
+      "sourceId": 50,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 50
+      },
+      "title": "East Harlem Sites / B Open Door",
+      "coordinates": [
+        -73.9347264,
+        40.8035426
+      ],
+      "stage": "Post Public Approval",
+      "homes": 79,
+      "homesLabel": "79",
+      "address": "223 EAST  125 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=50&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-51",
+      "sourceId": 51,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 51
+      },
+      "title": "East Harlem Sites / B-Central",
+      "coordinates": [
+        -73.9347264,
+        40.8035426
+      ],
+      "stage": "Post Public Approval",
+      "homes": 420,
+      "homesLabel": "420",
+      "address": "223 EAST  125 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=51&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-52",
+      "sourceId": 52,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 52
+      },
+      "title": "East Harlem Sites / B-East",
+      "coordinates": [
+        -73.9335635,
+        40.80333880000001
+      ],
+      "stage": "RFP Active",
+      "homes": 140,
+      "homesLabel": "140",
+      "address": "2455 SECOND AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=52&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-53",
+      "sourceId": 53,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 53
+      },
+      "title": "East New York and Brownsville",
+      "coordinates": [
+        -73.9107584,
+        40.675728099999986
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 33,
+      "homesLabel": "33",
+      "address": "2263 PACIFIC STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=53&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-54",
+      "sourceId": 54,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 54
+      },
+      "title": "East Tremont Cluster",
+      "coordinates": [
+        -73.891872,
+        40.84411029999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 64,
+      "homesLabel": "64",
+      "address": "706 CROTONA AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=54&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-55",
+      "sourceId": 55,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 55
+      },
+      "title": "Essex Phase 9",
+      "coordinates": [
+        -73.9876371,
+        40.719137599999996
+      ],
+      "stage": "Post Public Approval",
+      "homes": 99,
+      "homesLabel": "99",
+      "address": "116-20 DELANCEY STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF SMALL BUSINESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=55&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-56",
+      "sourceId": 56,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 56
+      },
+      "title": "Fulton-Howard West (Bed-Stuy MSC)",
+      "coordinates": [
+        -73.919952,
+        40.6783287
+      ],
+      "stage": "Pre-RFP",
+      "homes": null,
+      "homesLabel": "250-400",
+      "address": "1958 FULTON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HUMAN RESOURCES ADMINISTRATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=56&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection. The published units value is a range or approximation: 250-400."
+    },
+    {
+      "id": "lift-57",
+      "sourceId": 57,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 57
+      },
+      "title": "Fulton-Utica",
+      "coordinates": [
+        -73.9287987,
+        40.678878
+      ],
+      "stage": "Pre-RFP",
+      "homes": 150,
+      "homesLabel": "150",
+      "address": "FULTON STREET",
+      "leadAgency": "HPD",
+      "owner": "FULTON PK ASSOC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=57&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-58",
+      "sourceId": 58,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 58
+      },
+      "title": "Gansevoort Square",
+      "coordinates": [
+        -74.0085597,
+        40.740091400000004
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 590,
+      "homesLabel": "590",
+      "address": "555-69 WEST STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=58&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-59",
+      "sourceId": 59,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 59
+      },
+      "title": "Gowanus Building A",
+      "coordinates": [
+        -73.9942101,
+        40.6763335
+      ],
+      "stage": "Post Public Approval",
+      "homes": 191,
+      "homesLabel": "191",
+      "address": "435 HOYT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=59&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-60",
+      "sourceId": 60,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 60
+      },
+      "title": "Gowanus Building B",
+      "coordinates": [
+        -73.9942101,
+        40.6763335
+      ],
+      "stage": "Post Public Approval",
+      "homes": 300,
+      "homesLabel": "300",
+      "address": "435 HOYT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=60&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-61",
+      "sourceId": 61,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 61
+      },
+      "title": "Gowanus Building C",
+      "coordinates": [
+        -73.9942101,
+        40.6763335
+      ],
+      "stage": "Post Public Approval",
+      "homes": 208,
+      "homesLabel": "208",
+      "address": "435 HOYT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=61&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-62",
+      "sourceId": 62,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 62
+      },
+      "title": "Gowanus Building D / FAC.Gowanus Green",
+      "coordinates": [
+        -73.9942101,
+        40.6763335
+      ],
+      "stage": "Post Public Approval",
+      "homes": 81,
+      "homesLabel": "81",
+      "address": "435 HOYT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=62&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-63",
+      "sourceId": 63,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 63
+      },
+      "title": "Gowanus Building E",
+      "coordinates": [
+        -73.9942101,
+        40.6763335
+      ],
+      "stage": "Post Public Approval",
+      "homes": 112,
+      "homesLabel": "112",
+      "address": "435 HOYT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=63&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-64",
+      "sourceId": 64,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 64
+      },
+      "title": "Grand Concourse NYPL",
+      "coordinates": [
+        -73.9100772,
+        40.844013399999994
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 114,
+      "homesLabel": "114",
+      "address": "155 EAST  173 STREET",
+      "leadAgency": "HPD",
+      "owner": "NEW YORK PUBLIC LIBRARY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=64&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-65",
+      "sourceId": 65,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 65
+      },
+      "title": "Greenpoint Hospital Building 3 (SARA)",
+      "coordinates": [
+        -73.9391545,
+        40.716945599999995
+      ],
+      "stage": "Post Public Approval",
+      "homes": 106,
+      "homesLabel": "106",
+      "address": "298 JACKSON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=65&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-66",
+      "sourceId": 66,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 66
+      },
+      "title": "Greenpoint Hospital Building 4 (ELLA)",
+      "coordinates": [
+        -73.9391545,
+        40.716945599999995
+      ],
+      "stage": "Post Public Approval",
+      "homes": 137,
+      "homesLabel": "137",
+      "address": "298 JACKSON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=66&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-67",
+      "sourceId": 67,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 67
+      },
+      "title": "Harlem African Burial Ground",
+      "coordinates": [
+        -73.931624,
+        40.80321419999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 730,
+      "homesLabel": "730",
+      "address": "2460-78 2 AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC TRANSIT AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=67&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-68",
+      "sourceId": 68,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 68
+      },
+      "title": "Hillside Grove",
+      "coordinates": [
+        -74.084134,
+        40.63638550000001
+      ],
+      "stage": "Post Public Approval",
+      "homes": 290,
+      "homesLabel": "290",
+      "address": "539 JERSEY STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF SANITATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=68&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-69",
+      "sourceId": 69,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 69
+      },
+      "title": "Hunters Point South Parcel D",
+      "coordinates": [
+        -73.9601244,
+        40.74057340000001
+      ],
+      "stage": "Pre-RFP",
+      "homes": 846,
+      "homesLabel": "846",
+      "address": "54-24 2 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=69&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-70",
+      "sourceId": 70,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 70
+      },
+      "title": "Hunters Point South Parcel E",
+      "coordinates": [
+        -73.9603631,
+        40.73966770000001
+      ],
+      "stage": "Post Public Approval",
+      "homes": 980,
+      "homesLabel": "980",
+      "address": "2 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=70&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-71",
+      "sourceId": 71,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 71
+      },
+      "title": "IKOS Senior Living",
+      "coordinates": [
+        -73.9254654,
+        40.761301
+      ],
+      "stage": "Post Public Approval",
+      "homes": 167,
+      "homesLabel": "167",
+      "address": "31-07 31 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF TRANSPORTATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=71&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-72",
+      "sourceId": 72,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 72
+      },
+      "title": "Jewel Streets Public Site",
+      "coordinates": [
+        -73.85803123,
+        40.66582488999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 1400,
+      "homesLabel": "1400",
+      "address": "EMERALD STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=72&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-73",
+      "sourceId": 73,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 73
+      },
+      "title": "Kingsborough Houses",
+      "coordinates": [
+        -73.9242176,
+        40.67501602
+      ],
+      "stage": "Post Public Approval",
+      "homes": 244,
+      "homesLabel": "244",
+      "address": "1733 BERGEN STREET",
+      "leadAgency": "NYCHA",
+      "owner": "NYC HOUSING AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=73&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-74",
+      "sourceId": 74,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 74
+      },
+      "title": "Kingsbridge Phase 2",
+      "coordinates": [
+        -73.8983189,
+        40.868382000000004
+      ],
+      "stage": "Post Public Approval",
+      "homes": 500,
+      "homesLabel": "500",
+      "address": "RESERVOIR AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NY STATE MILITIA",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=74&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-75",
+      "sourceId": 75,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 75
+      },
+      "title": "La Ostra (Inwood 9th Ave)",
+      "coordinates": [
+        -73.9111795,
+        40.8710962
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 625,
+      "homesLabel": "625",
+      "address": "9 AVE",
+      "leadAgency": "HPD",
+      "owner": "CITY OF NEW YORK",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=75&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-76",
+      "sourceId": 76,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 76
+      },
+      "title": "Lebechi East",
+      "coordinates": [
+        -73.91071634,
+        40.67209043
+      ],
+      "stage": "Post Public Approval",
+      "homes": 95,
+      "homesLabel": "95",
+      "address": "1596 EAST NEW YORK AVENUE",
+      "leadAgency": "NYCHA",
+      "owner": "NYC HOUSING AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=76&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-77",
+      "sourceId": 77,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 77
+      },
+      "title": "LIC Waterfront + DOE Vernon",
+      "coordinates": [
+        -73.9530487,
+        40.74966690000001
+      ],
+      "stage": "Pre-RFP",
+      "homes": null,
+      "homesLabel": "1,000+",
+      "address": "44-36 VERNON BOULEVARD",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF EDUCATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=77&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection. The published units value is a range or approximation: 1,000+."
+    },
+    {
+      "id": "lift-78",
+      "sourceId": 78,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 78
+      },
+      "title": "Lincoln-Wortman 2.0",
+      "coordinates": [
+        -73.86504403,
+        40.66552433999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 63,
+      "homesLabel": "63",
+      "address": "956 LINCOLN AVENUE",
+      "leadAgency": "HPD",
+      "owner": "JNB REALTY LLC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=78&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-79",
+      "sourceId": 79,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 79
+      },
+      "title": "Linden Gardens",
+      "coordinates": [
+        -73.8902953,
+        40.67151639999998
+      ],
+      "stage": "Post Public Approval",
+      "homes": 37,
+      "homesLabel": "37",
+      "address": "342 VAN SICLEN AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=79&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-80",
+      "sourceId": 80,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 80
+      },
+      "title": "Livonia Sites C1 and C4",
+      "coordinates": [
+        -73.9027337,
+        40.663092899999995
+      ],
+      "stage": "Post Public Approval",
+      "homes": 281,
+      "homesLabel": "281",
+      "address": "386-408 LIVONIA AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=80&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-81",
+      "sourceId": 81,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 81
+      },
+      "title": "Madison Bridge Landing/Padded Wagon/63 Exterior St",
+      "coordinates": [
+        -73.9321706,
+        40.81269210000001
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 537,
+      "homesLabel": "537",
+      "address": "167 EXTERIOR STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF SMALL BUSINESS SERVICE",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=81&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-82",
+      "sourceId": 82,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 82
+      },
+      "title": "Melrose Commons Site B2 (CS III) / 599 Courtlandt",
+      "coordinates": [
+        -73.91929773,
+        40.81793126999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 222,
+      "homesLabel": "222",
+      "address": "599 COURTLANDT AVENUE",
+      "leadAgency": "HPD",
+      "owner": "COURTLANDT DEVELOPMENT GROUP LLC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=82&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-83",
+      "sourceId": 83,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 83
+      },
+      "title": "Melrose Open Door",
+      "coordinates": [
+        -73.9107669,
+        40.8229125
+      ],
+      "stage": "Post Public Approval",
+      "homes": 60,
+      "homesLabel": "60",
+      "address": "881 BROOK AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=83&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-84",
+      "sourceId": 84,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 84
+      },
+      "title": "Morrisania - Morris Heights Cluster - Open Door",
+      "coordinates": [
+        -73.9079145,
+        40.826708999999994
+      ],
+      "stage": "Post Public Approval",
+      "homes": 80,
+      "homesLabel": "80",
+      "address": "3341 3 AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=84&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-85",
+      "sourceId": 85,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 85
+      },
+      "title": "Nevins Street",
+      "coordinates": [
+        -73.9840021,
+        40.683666599999995
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 71,
+      "homesLabel": "71",
+      "address": "153-63 NEVINS STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=85&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-86",
+      "sourceId": 86,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 86
+      },
+      "title": "New Utrecht BPL + Muni Lot",
+      "coordinates": [
+        -74.0033566,
+        40.6080241
+      ],
+      "stage": "RFP Active",
+      "homes": null,
+      "homesLabel": "200-300",
+      "address": "1743 86 STREET",
+      "leadAgency": "HPD",
+      "owner": "BROOKLYN PUBLIC LIBRARY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=86&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection. The published units value is a range or approximation: 200-300."
+    },
+    {
+      "id": "lift-87",
+      "sourceId": 87,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 87
+      },
+      "title": "North Shore Housing",
+      "coordinates": [
+        -74.0752289,
+        40.6441402
+      ],
+      "stage": "Pre-RFP",
+      "homes": 2500,
+      "homesLabel": "2500",
+      "address": "55 RICHMOND TERRACE",
+      "leadAgency": "EDC",
+      "owner": "EO STATEN ISLAND PROPERTY OWNER LLC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=87&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-88",
+      "sourceId": 88,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 88
+      },
+      "title": "Ocean Bay Apartments",
+      "coordinates": [
+        -73.78422704,
+        40.59461184999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 105,
+      "homesLabel": "105",
+      "address": "360 BEACH 54 STREET",
+      "leadAgency": "NYCHA",
+      "owner": "NYC HOUSING AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=88&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-89",
+      "sourceId": 89,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 89
+      },
+      "title": "Pacific/Linwood",
+      "coordinates": [
+        -73.9173373,
+        40.67611459999999
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 30,
+      "homesLabel": "30",
+      "address": "2105 PACIFIC STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=89&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-90",
+      "sourceId": 90,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 90
+      },
+      "title": "Peninsula Phase 3",
+      "coordinates": [
+        -73.8900057,
+        40.8143475
+      ],
+      "stage": "Post Public Approval",
+      "homes": 197,
+      "homesLabel": "197",
+      "address": "1221 SPOFFORD AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC ADMINISTRATION FOR CHILDRENS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=90&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-91",
+      "sourceId": 91,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 91
+      },
+      "title": "Prospect Park Residential",
+      "coordinates": [
+        -73.9622693,
+        40.6617774
+      ],
+      "stage": "RFP Active",
+      "homes": 300,
+      "homesLabel": "300",
+      "address": "FLATBUSH AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC TRANSIT AUTHORITY",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=91&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-92",
+      "sourceId": 92,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 92
+      },
+      "title": "Resilient Edgemere Community Initiative - infill sites",
+      "coordinates": [
+        -73.7748154,
+        40.5935635
+      ],
+      "stage": "Post Public Approval",
+      "homes": 120,
+      "homesLabel": "120",
+      "address": "ROCKAWAY BEACH BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=92&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-93",
+      "sourceId": 93,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 93
+      },
+      "title": "Resilient Edgemere Community Initiative - undesignated multi-family sites",
+      "coordinates": [
+        -73.7748154,
+        40.5935635
+      ],
+      "stage": "Pre-RFP",
+      "homes": 400,
+      "homesLabel": "400",
+      "address": "ROCKAWAY BEACH BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=93&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-94",
+      "sourceId": 94,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 94
+      },
+      "title": "Resilient Housing and Open Space ULURP  - Queens",
+      "coordinates": [
+        -73.8322516,
+        40.65614149999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 10,
+      "homesLabel": "10",
+      "address": "14 BAYVIEW AVENUE",
+      "leadAgency": "HPD",
+      "owner": "CITY OF NEW YORK",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=94&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-95",
+      "sourceId": 95,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 95
+      },
+      "title": "Resilient Housing and Open Space ULURP - Brooklyn",
+      "coordinates": [
+        -74.00697224,
+        40.578564969999995
+      ],
+      "stage": "Post Public Approval",
+      "homes": 4,
+      "homesLabel": "4",
+      "address": "3826 CYPRESS AVENUE",
+      "leadAgency": "HPD",
+      "owner": "MARRCON DEVELOPMENT CORP",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=95&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-96",
+      "sourceId": 96,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 96
+      },
+      "title": "Resilient Housing and Open Space ULURP - SI Phase 2",
+      "coordinates": [
+        -74.0999195,
+        40.5622551
+      ],
+      "stage": "Post Public Approval",
+      "homes": 20,
+      "homesLabel": "20",
+      "address": "66 TOPPING STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=96&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-97",
+      "sourceId": 97,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 97
+      },
+      "title": "Rockaway Beach Boulevard - designated Edgemere multi-family site",
+      "coordinates": [
+        -73.77446044,
+        40.59347751999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 194,
+      "homesLabel": "194",
+      "address": "ROCKAWAY BEACH BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=97&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-99",
+      "sourceId": 99,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 99
+      },
+      "title": "South Jamaica Gateway Rezoning (Godian Fellowship)",
+      "coordinates": [
+        -73.79329919,
+        40.69984168
+      ],
+      "stage": "Post Public Approval",
+      "homes": 79,
+      "homesLabel": "79",
+      "address": "106-01 GUY R BREWER BLVD",
+      "leadAgency": "HPD",
+      "owner": "GODIAN FELLOWSHIP, INC",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=99&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-100",
+      "sourceId": 100,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 100
+      },
+      "title": "South Jamaica Multi-Service Center",
+      "coordinates": [
+        -73.7859293,
+        40.68835429999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 250,
+      "homesLabel": "250",
+      "address": "114-02 GUY BREWER BOULEVARD",
+      "leadAgency": "HPD",
+      "owner": "NYC HUMAN RESOURCES ADMINISTRATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=100&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-101",
+      "sourceId": 101,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 101
+      },
+      "title": "South Jamaica NCP Infinite Horizons",
+      "coordinates": [
+        -73.7909674,
+        40.6950141
+      ],
+      "stage": "Post Public Approval",
+      "homes": 83,
+      "homesLabel": "83",
+      "address": "10851 UNION HALL STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=101&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-102",
+      "sourceId": 102,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 102
+      },
+      "title": "South Jamaica Rising Open Door Scattered Sites",
+      "coordinates": [
+        -73.7899584,
+        40.69363439999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 36,
+      "homesLabel": "36",
+      "address": "109-41A UNION HALL STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=102&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-103",
+      "sourceId": 103,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 103
+      },
+      "title": "South Jamaica Rising Open Door Scattered Sites (Accelerated UDAAP)",
+      "coordinates": [
+        -73.8443604,
+        40.673533
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 33,
+      "homesLabel": "33",
+      "address": "9043 DESARC ROAD",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=103&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-104",
+      "sourceId": 104,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 104
+      },
+      "title": "Spring Creek Phase 5A",
+      "coordinates": [
+        -73.8747794,
+        40.6563412
+      ],
+      "stage": "Post Public Approval",
+      "homes": 360,
+      "homesLabel": "360",
+      "address": "FLATLANDS AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=104&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-105",
+      "sourceId": 105,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 105
+      },
+      "title": "Spring Creek Phase 5B (Mix)",
+      "coordinates": [
+        -73.878158,
+        40.65548570000001
+      ],
+      "stage": "Post Public Approval",
+      "homes": 200,
+      "homesLabel": "200",
+      "address": "FLATLANDS AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=105&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-106",
+      "sourceId": 106,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 106
+      },
+      "title": "Stapleton B1",
+      "coordinates": [
+        -74.07044,
+        40.63053459999999
+      ],
+      "stage": "Pre-RFP",
+      "homes": 308,
+      "homesLabel": "308",
+      "address": "455 FRONT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=106&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-107",
+      "sourceId": 107,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 107
+      },
+      "title": "Stapleton B4/B5",
+      "coordinates": [
+        -74.07362792,
+        40.62496868
+      ],
+      "stage": "Post Public Approval",
+      "homes": 613,
+      "homesLabel": "613",
+      "address": "FRONT STREET",
+      "leadAgency": "EDC",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=107&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-108",
+      "sourceId": 108,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 108
+      },
+      "title": "Stapleton Beacon",
+      "coordinates": [
+        -74.07044,
+        40.63053459999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 360,
+      "homesLabel": "360",
+      "address": "455 FRONT STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF PARKS AND RECREATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=108&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-109",
+      "sourceId": 109,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 109
+      },
+      "title": "The Beacon: 413 East 120th Street",
+      "coordinates": [
+        -73.932326,
+        40.79846349999999
+      ],
+      "stage": "Post Public Approval",
+      "homes": 281,
+      "homesLabel": "281",
+      "address": "413-31 EAST  120 STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HUMAN RESOURCES ADMINISTRATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=109&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-110",
+      "sourceId": 110,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 110
+      },
+      "title": "The Norma",
+      "coordinates": [
+        -73.9187008,
+        40.678462299999985
+      ],
+      "stage": "Post Public Approval",
+      "homes": 44,
+      "homesLabel": "44",
+      "address": "1988A FULTON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=110&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-111",
+      "sourceId": 111,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 111
+      },
+      "title": "The Stemma",
+      "coordinates": [
+        -73.8937805,
+        40.832710500000005
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 149,
+      "homesLabel": "149",
+      "address": "1388 STEBBINS AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=111&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-112",
+      "sourceId": 112,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 112
+      },
+      "title": "The Steps at Saratoga",
+      "coordinates": [
+        -73.9175327,
+        40.6784011
+      ],
+      "stage": "Post Public Approval",
+      "homes": 253,
+      "homesLabel": "253",
+      "address": "2012 FULTON STREET",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=112&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-113",
+      "sourceId": 113,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 113
+      },
+      "title": "Third Avenue",
+      "coordinates": [
+        -73.982459,
+        40.683172299999995
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 68,
+      "homesLabel": "68",
+      "address": "108 3 AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=113&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-114",
+      "sourceId": 114,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 114
+      },
+      "title": "Van Buren Green / Brownsville",
+      "coordinates": [
+        -73.9107499,
+        40.6604836
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 30,
+      "homesLabel": "30",
+      "address": "RIVERDALE AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=114&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-115",
+      "sourceId": 115,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 115
+      },
+      "title": "Willets Point - Northern Parcel",
+      "coordinates": [
+        -73.8448328,
+        40.76021610000001
+      ],
+      "stage": "Post Public Approval",
+      "homes": 700,
+      "homesLabel": "700",
+      "address": "34 AVENUE",
+      "leadAgency": "EDC",
+      "owner": "CITY OF NEW YORK",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=115&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-116",
+      "sourceId": 116,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 116
+      },
+      "title": "Willets Point - T-Parcel",
+      "coordinates": [
+        -73.8439387,
+        40.759750999999994
+      ],
+      "stage": "Post Public Approval",
+      "homes": 350,
+      "homesLabel": "350",
+      "address": "126-36 34 AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=116&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-117",
+      "sourceId": 117,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 117
+      },
+      "title": "Willets Point - Triangle Parcel",
+      "coordinates": [
+        -73.84337624,
+        40.75722266999998
+      ],
+      "stage": "Post Public Approval",
+      "homes": 350,
+      "homesLabel": "350",
+      "address": "126-16 38TH AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC HOUSING PRESERVATION AND DEVELOPMENT",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=117&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-118",
+      "sourceId": 118,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 118
+      },
+      "title": "WIN-Powers Phase 2",
+      "coordinates": [
+        -73.9117517,
+        40.8077899
+      ],
+      "stage": "Post Public Approval",
+      "homes": 221,
+      "homesLabel": "221",
+      "address": "346 POWERS AVENUE",
+      "leadAgency": "HPD",
+      "owner": "NYC DEPARTMENT OF HOMELESS SERVICES",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=118&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-119",
+      "sourceId": 119,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 119
+      },
+      "title": "Fulton & Elliott - Chelsea Houses",
+      "coordinates": [
+        -74.00333306103526,
+        40.744323443968405
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": null,
+      "homesLabel": "~3,500",
+      "address": "401 WEST 19 STREET",
+      "leadAgency": "NYCHA",
+      "owner": "NYCHA",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=119&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection. The published units value is a range or approximation: ~3,500."
+    },
+    {
+      "id": "lift-120",
+      "sourceId": 120,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 120
+      },
+      "title": "Flushing Airport",
+      "coordinates": [
+        -73.83340975552395,
+        40.78055035479187
+      ],
+      "stage": "Developer Selected/Pre-Public Approval",
+      "homes": 3000,
+      "homesLabel": "3,000",
+      "address": "20 AVENUE",
+      "leadAgency": "EDC",
+      "owner": "NYC ECONOMIC DEVELOPMENT CORPORATION",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=120&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    },
+    {
+      "id": "lift-121",
+      "sourceId": 121,
+      "sourceIds": {
+        "storyMapItemId": "afce9e93d79847608fc846878e17db8e",
+        "webMapItemId": "70bd4dc0d246454d82e0784a8ab9c265",
+        "layerItemId": "f4ab8860ae8849349bd7830557661450",
+        "objectId": 121
+      },
+      "title": "Sol on Park",
+      "coordinates": [
+        -73.90491588070472,
+        40.836706407651135
+      ],
+      "stage": "Post Public Approval",
+      "homes": 229,
+      "homesLabel": "229",
+      "address": "3728 PARK AVENUE",
+      "leadAgency": "NYCHA",
+      "owner": "NYCHA",
+      "url": "https://storymaps.arcgis.com/stories/afce9e93d79847608fc846878e17db8e",
+      "featureUrl": "https://services6.arcgis.com/mMjXyrLYuBDkMYq4/arcgis/rest/services/LIFT_Tracker/FeatureServer/0/query?objectIds=121&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "source": "NYC LIFT Tracker",
+      "notes": "Published pipeline project. The supplied point does not define a parcel, approved buildable area, or thermal network connection."
+    }
+  ]
+}
